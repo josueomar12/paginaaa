@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+        <link rel="stylesheet" href="css/citas.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        
+
+</head>
+<body>
+    <nav>
+    <section class="contenedor nav">
+        <div class="logo">
+            <img src="img/hf.png" alt="">
+        </div>
+        <div class="enlaces-header">
+            <a href="./index.php">Inicio</a>
+   <a href="./login.PHP">Iniciar sesion</a>
+            <a href="./conocenos.html">Conocenos</a>
+            <a href="citas.php">agendar citas </a>
+            <a href="./c.html">registro de refacciones</a>
+        </div>
+        <div class="hamburguer">
+            <i class="fas fa-bars"></i>
+        </div>
+    </section>
+</nav>
+
+<h4 style="text-align: center;">Datos Iniciales</h4>
+
+									<form method="post" action="#">
+										<div class="row uniform">
+
+											<div class="8u 12u$(xsmall)">
+				<br>
+            <br>
+            <br>
+            <br>
+            <h4>REGISTRO DE REFACCIONES</h4>				<input type="text" name="name" id="name" value="" placeholder="Nombre Cliente" />
+											</div>
+
+											<div class="4u$ 12u$(xsmall)">
+												<input type="text" name="numero" id="numero" value="" placeholder="N°" />
+											</div>
+
+											<div class="2u 12u$(xsmall)">
+												<input type="text" name="codigo" id="codigo" value="" placeholder="Codigo"/>
+											</div>
+
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="descripcion" id="descripcion" value="" placeholder="Descripcion Producto"/>
+											</div>
+
+											<div class="2u 12u$(xsmall)">
+												<input type="text" name="cantidad" id="cantidad" value="" placeholder="cantidad" onkeyup="format(this)" onchange="format(this)"/>
+											</div>
+
+											<div class="2u$ 12u$(xsmall)">
+												<input type="text" name="precio" id="precio" value="" placeholder="Precio" onkeyup="format(this)" onchange="format(this)"/>
+											</div>								
+										</div>
+										<br>
+										<div class="12u$">
+											<ul class="actions" style="text-align: center">
+												<li><input type="button" value="Agregar" class="principal" id="add_row"/></li>
+											</ul>
+										</div>
+										<br>
+										<br>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
+</body>
+</html>
